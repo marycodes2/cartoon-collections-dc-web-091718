@@ -18,5 +18,7 @@ end
 
 def find_the_cheese(array_of_snacks)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array_of_snacks.
+  array_of_snacks.each do |snack|
+    cheese_types.each do |cheese|
+      
 end
